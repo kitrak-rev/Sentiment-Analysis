@@ -4,6 +4,7 @@ import pyramid
 from pyramid.config import Configurator
 from pyramid.response import Response
 from pyramid.view import view_config
+import pyramid_chameleon
 import pyramid_swagger
 
 from typing import Union
